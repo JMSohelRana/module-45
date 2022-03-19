@@ -1,0 +1,45 @@
+div {
+  color: black;
+  background-color: rgb(213, 147, 229);
+}
+
+@media only screen and (min-width: 0px) {
+  .countries {
+    background-color: rgb(105, 223, 37);
+    display: grid;
+
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (min-width: 481px) {
+  .countries {
+    background-color: rgb(241, 147, 23);
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (min-width: 769px) {
+  .countries {
+    background-color: aqua;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .countries {
+    background-color: rgb(187, 48, 187);
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media only screen and (min-width: 1201px) {
+  .countries {
+    background-color: rgb(129, 59, 65);
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
